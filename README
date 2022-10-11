@@ -1,0 +1,29 @@
+EVERYTHING WORKS
+
+USE towertest to use test the hanoi towers main function.
+
+
+QUESTION 1
+
+	1. ANS: towers(4,2,1)
+
+     		Calculation-->		(n-1)-->(5-1)=4
+	 							 (6-2-3)=1
+
+
+	2. ANS:  5 times
+
+	3. Since the first recursive call to towers is invoked with towers(4,2,1) this will be the last move of the puzzle to return the invocation. 			
+
+		The 1st disk moves from Tower 2 to Tower 3. This is the ouput of the program.
+
+
+	4. Since this is the 2nd recursive call to invoke towers the 2nd last move of the puzzle to return the invocation. 
+		
+		The invocation is towers(0,3,2)
+
+
+
+QUESTION 2
+
+	ANS: 255 LINES AS THE TOTAL MOVES IS 255.
